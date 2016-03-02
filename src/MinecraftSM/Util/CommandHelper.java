@@ -34,14 +34,16 @@ public class CommandHelper {
 				test = true;
 			}
 			while(!test){
-				System.out.print("Response can only be [Y/N]:");
+		
+			 System.out.print("Response can only be [Y/N]:");
 				sure = consoleIn.readLine();
 				if(sure.toLowerCase().equals("y") || sure.toLowerCase().equals("n"))
 				{
 					test = true;
 				}
 			}
-			return test;
+			boolean t = sure.toLowerCase().equals("y");
+			return t;
 		}catch(IOException e){}
 		return false;
 	}

@@ -35,6 +35,7 @@ public class Main {
 		System.out.println("*************************************************************************");
 		Runtime.getRuntime().addShutdownHook(new Thread()
 		{
+			@Override
 			public void run()
 			{
 				InstanceManager.GetInstance().StopAllInstances();
@@ -92,7 +93,6 @@ public class Main {
 				case "shutdown":
 				{
 					shutdown = commandHelper.exit();
-					
 					break;
 				}
 				case "save":

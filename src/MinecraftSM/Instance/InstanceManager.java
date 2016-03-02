@@ -9,8 +9,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import org.apache.commons.io.FileUtils;
-
 import MinecraftSM.Config.Backup;
 import MinecraftSM.Config.Serializable.Backups;
 import MinecraftSM.Config.Serializable.Global;

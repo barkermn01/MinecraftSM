@@ -56,7 +56,7 @@ public class ServerRequest
 				String postData = "";
 				if (headers.containsKey("Content-Length"))
 				{
-					int lenght = Integer.parseInt((String)headers.get("Content-Length"));
+					int lenght = Integer.parseInt(headers.get("Content-Length"));
 					int currentCount = 1;
 					while (currentCount <= lenght)
 					{
@@ -97,7 +97,7 @@ public class ServerRequest
 				}
 				if (headers.containsKey("Cookie"))
 				{
-					String[] parts = ((String)headers.get("Cookie")).split("([\\?|\\&|\\;])");
+					String[] parts = headers.get("Cookie").split("([\\?|\\&|\\;])");
 					for (String part : parts)
 					{
 						String[] getParam = part.split("=");

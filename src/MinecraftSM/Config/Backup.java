@@ -2,7 +2,6 @@ package MinecraftSM.Config;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
@@ -17,7 +16,6 @@ import MinecraftSM.Config.Serializable.Global;
 import MinecraftSM.Config.Serializable.Server;
 import MinecraftSM.Instance.InstanceManager;
 import MinecraftSM.Util.Exceptions.ServerDoesNotExist;
-import MinecraftSM.Util.Exceptions.ServerIsNotRunning;
 import MinecraftSM.Util.Exceptions.ServerIsRunning;
 
 public class Backup {

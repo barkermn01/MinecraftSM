@@ -10,7 +10,6 @@ import java.io.StringWriter;
 import java.net.Socket;
 
 import MinecraftSM.Config.Serializable.Global;
-import MinecraftSM.Config.Serializable.Server;
 import MinecraftSM.Instance.InstanceManager;
 import MinecraftSM.Util.FileReader;
 import MinecraftSM.Util.SupportedMimeTypes;
@@ -162,6 +161,7 @@ public class InstanceWebWorker extends Thread implements Runnable {
 		catch (IOException ex) {}
 	}
 	
+	@Override
 	public void run(){
 		
 	}

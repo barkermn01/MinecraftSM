@@ -2,9 +2,6 @@ package MinecraftSM.Config.Serializable;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
 import MinecraftSM.Config.Backup;
 import MinecraftSM.Config.ConfigReader;
 
